@@ -9,6 +9,7 @@ module.exports = {
         yellowish: "#fed100",
         pcolor: "#333333",
         fff: "#ffffff",
+        maingray: "#666666",
       },
       fontFamily: {
         sans: ["Roboto-Sans", "sans-serif"],
