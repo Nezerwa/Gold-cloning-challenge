@@ -10,6 +10,9 @@ module.exports = {
         pcolor: "#333333",
         fff: "#ffffff",
       },
+      fontFamily: {
+        sans: ["Roboto-Sans", "sans-serif"],
+      },
     },
   },
   plugins: [],
