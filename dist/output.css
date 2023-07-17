@@ -534,6 +534,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.relative {
+  position: relative;
+}
+
+.bottom-\[40px\] {
+  bottom: 40px;
+}
+
+.top-\[150px\] {
+  top: 150px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -543,12 +555,56 @@ video {
   display: flex;
 }
 
+.h-\[190px\] {
+  height: 190px;
+}
+
+.h-\[262\] {
+  height: 262;
+}
+
+.h-\[410px\] {
+  height: 410px;
+}
+
+.h-\[513px\] {
+  height: 513px;
+}
+
+.h-\[57px\] {
+  height: 57px;
+}
+
 .h-\[80px\] {
   height: 80px;
 }
 
+.w-\[1519px\] {
+  width: 1519px;
+}
+
+.w-\[284px\] {
+  width: 284px;
+}
+
+.w-\[611px\] {
+  width: 611px;
+}
+
+.w-\[631px\] {
+  width: 631px;
+}
+
+.w-\[790px\] {
+  width: 790px;
+}
+
 .w-\[90\%\] {
   width: 90%;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -569,16 +625,70 @@ video {
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .bg-grayishwhile {
   --tw-bg-opacity: 1;
   background-color: rgb(241 242 242 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-yellowish {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 209 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\/src\/images\/10001\.png\'\)\] {
+  background-image: url('/src/images/10001.png');
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
 }
 
 .text-\[34px\] {
   font-size: 34px;
 }
 
+.font-\[500\] {
+  font-weight: 500;
+}
+
 .text-greyish {
   --tw-text-opacity: 1;
   color: rgb(58 58 58 / var(--tw-text-opacity));
+}
+
+.hero-image {
+  background-image: url("src/images/10001.png");
+  /* The image used */
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  height: 500px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
 }
