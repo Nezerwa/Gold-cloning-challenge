@@ -534,8 +534,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
 }
 
 .bottom-\[40px\] {
@@ -554,6 +562,166 @@ video {
   top: 40px;
 }
 
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
+.bottom-8 {
+  bottom: 2rem;
+}
+
+.left-5 {
+  left: 1.25rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.right-3 {
+  right: 0.75rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
+.right-1 {
+  right: 0.25rem;
+}
+
+.-right-1 {
+  right: -0.25rem;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.right-12 {
+  right: 3rem;
+}
+
+.right-16 {
+  right: 4rem;
+}
+
+.right-36 {
+  right: 9rem;
+}
+
+.right-32 {
+  right: 8rem;
+}
+
+.right-40 {
+  right: 10rem;
+}
+
+.right-44 {
+  right: 11rem;
+}
+
+.right-48 {
+  right: 12rem;
+}
+
+.right-56 {
+  right: 14rem;
+}
+
+.bottom-12 {
+  bottom: 3rem;
+}
+
+.bottom-16 {
+  bottom: 4rem;
+}
+
+.bottom-24 {
+  bottom: 6rem;
+}
+
+.left-7 {
+  left: 1.75rem;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
+.-left-8 {
+  left: -2rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
+.right-\[\] {
+  right: ;
+}
+
+.right-\[260px\] {
+  right: 260px;
+}
+
+.right-\[280px\] {
+  right: 280px;
+}
+
+.left-\[280px\] {
+  left: 280px;
+}
+
+.left-\[80px\] {
+  left: 80px;
+}
+
+.right-\[80px\] {
+  right: 80px;
+}
+
+.right-\[90px\] {
+  right: 90px;
+}
+
+.right-\[130px\] {
+  right: 130px;
+}
+
+.right-\[150px\] {
+  right: 150px;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.-bottom-3 {
+  bottom: -0.75rem;
+}
+
+.-bottom-2 {
+  bottom: -0.5rem;
+}
+
+.-bottom-1 {
+  bottom: -0.25rem;
+}
+
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -564,24 +732,60 @@ video {
   margin-right: auto;
 }
 
-.flex {
-  display: flex;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
-.grid {
-  display: grid;
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.ml-24 {
+  margin-left: 6rem;
+}
+
+.flex {
+  display: flex;
 }
 
 .h-\[190px\] {
   height: 190px;
 }
 
+.h-\[210px\] {
+  height: 210px;
+}
+
 .h-\[262px\] {
   height: 262px;
 }
 
+.h-\[272px\] {
+  height: 272px;
+}
+
+.h-\[368px\] {
+  height: 368px;
+}
+
 .h-\[410px\] {
   height: 410px;
+}
+
+.h-\[432px\] {
+  height: 432px;
 }
 
 .h-\[513px\] {
@@ -596,18 +800,6 @@ video {
   height: 80px;
 }
 
-.h-\[272px\] {
-  height: 272px;
-}
-
-.h-\[4px\] {
-  height: 4px;
-}
-
-.h-\[432px\] {
-  height: 432px;
-}
-
 .w-\[1519px\] {
   width: 1519px;
 }
@@ -616,8 +808,20 @@ video {
   width: 284px;
 }
 
+.w-\[304px\] {
+  width: 304px;
+}
+
+.w-\[315px\] {
+  width: 315px;
+}
+
 .w-\[611px\] {
   width: 611px;
+}
+
+.w-\[621px\] {
+  width: 621px;
 }
 
 .w-\[631px\] {
@@ -632,14 +836,6 @@ video {
   width: 90%;
 }
 
-.w-\[304px\] {
-  width: 304px;
-}
-
-.w-\[30px\] {
-  width: 30px;
-}
-
 .max-w-\[511px\] {
   max-width: 511px;
 }
@@ -647,10 +843,6 @@ video {
 .rotate-180 {
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -669,12 +861,12 @@ video {
   gap: 0.5rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -696,6 +888,11 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.bg-fff {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-grayishwhile {
   --tw-bg-opacity: 1;
   background-color: rgb(241 242 242 / var(--tw-bg-opacity));
@@ -704,11 +901,6 @@ video {
 .bg-yellowish {
   --tw-bg-opacity: 1;
   background-color: rgb(254 209 0 / var(--tw-bg-opacity));
-}
-
-.bg-fff {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/src\/images\/10001\.png\'\)\] {
@@ -741,6 +933,10 @@ video {
 
 .font-\[500\] {
   font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-greyish {
