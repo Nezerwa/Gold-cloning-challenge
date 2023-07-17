@@ -8,6 +8,7 @@ module.exports = {
         grayishwhile: "#f1f2f2",
         yellowish: "#fed100",
         pcolor: "#333333",
+        fff: "#ffffff",
       },
     },
   },

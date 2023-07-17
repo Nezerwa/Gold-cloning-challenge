@@ -542,8 +542,21 @@ video {
   bottom: 40px;
 }
 
+.left-2 {
+  left: 0.5rem;
+}
+
 .top-\[150px\] {
   top: 150px;
+}
+
+.top-\[40px\] {
+  top: 40px;
+}
+
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .mx-auto {
@@ -555,12 +568,16 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-\[190px\] {
   height: 190px;
 }
 
-.h-\[262\] {
-  height: 262;
+.h-\[262px\] {
+  height: 262px;
 }
 
 .h-\[410px\] {
@@ -577,6 +594,18 @@ video {
 
 .h-\[80px\] {
   height: 80px;
+}
+
+.h-\[272px\] {
+  height: 272px;
+}
+
+.h-\[4px\] {
+  height: 4px;
+}
+
+.h-\[432px\] {
+  height: 432px;
 }
 
 .w-\[1519px\] {
@@ -603,6 +632,27 @@ video {
   width: 90%;
 }
 
+.w-\[304px\] {
+  width: 304px;
+}
+
+.w-\[30px\] {
+  width: 30px;
+}
+
+.max-w-\[511px\] {
+  max-width: 511px;
+}
+
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -619,10 +669,22 @@ video {
   gap: 0.5rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-b-4 {
@@ -639,14 +701,14 @@ video {
   background-color: rgb(241 242 242 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-yellowish {
   --tw-bg-opacity: 1;
   background-color: rgb(254 209 0 / var(--tw-bg-opacity));
+}
+
+.bg-fff {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/src\/images\/10001\.png\'\)\] {
@@ -657,8 +719,16 @@ video {
   padding-top: 1rem;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .text-\[22px\] {
@@ -676,6 +746,11 @@ video {
 .text-greyish {
   --tw-text-opacity: 1;
   color: rgb(58 58 58 / var(--tw-text-opacity));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .hero-image {
