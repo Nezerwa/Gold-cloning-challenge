@@ -534,7 +534,51 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-red-900 {
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[80px\] {
+  height: 80px;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.bg-grayishwhile {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 242 242 / var(--tw-bg-opacity));
+}
+
+.text-\[34px\] {
+  font-size: 34px;
+}
+
+.text-greyish {
   --tw-text-opacity: 1;
-  color: rgb(127 29 29 / var(--tw-text-opacity));
+  color: rgb(58 58 58 / var(--tw-text-opacity));
 }
